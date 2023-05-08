@@ -1,1 +1,8 @@
 
+resource "ZPA_Server_Group" "bd_sa_seg_group"
+{
+dynamic_discovery = true
+enabled= true
+name = " Example_SG"
+tcp_keep_alive_enabled = "1"
+}
